@@ -1,0 +1,136 @@
+* {box-sizing: border-box;}
+
+#heroroad {
+    background-image: url('image/heroroad.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+#heromugs {
+    background-image: url('image/heromugs.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+#heroguitar{
+    background-image: url('image/heroguitar.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+body {
+    background-color: #fcebb6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url('image/background.gif');
+}
+
+header {
+    background-color: #d2b48c;
+    /* text-align: center; */
+    height: 150px;
+    background-image: url('image/javajamlogo.jpg');
+    background-repeat: no-repeat;
+}
+
+h1 {
+    /* line-height: 200%; */
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+
+    float: left;
+    width: 200px;
+}
+
+nav a {text-decoration: none;}
+
+nav a:link {color:#fef6c2;}
+nav a:visited {color:#d2b48c;}
+nav a:hover {color:#cc9933;}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #d2b48c;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #221811;
+}
+
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #221811;
+    clear: left;
+}
+.floatleft{
+    padding-right: 2em;
+    padding-bottom: 2em;
+    float: left;
+}
+
+main {
+    /* padding: 0 2em 2em; */
+    padding: 0 0 2em;
+    margin-left: 200px;
+    background-color: #fef6c2;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details {
+    padding: 0 20%;
+    overflow: auto;
+}
+
+img {
+    padding: 0 10px;
+}
+
+table{
+    width:90%;
+    margin:auto;
+    border-spacing: 0;
+    background-color: #fffccc;
+}
+
+td,th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #d2b48e;
+}
+
